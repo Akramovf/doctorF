@@ -1,0 +1,177 @@
+.head {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  cursor: pointer;
+  position: relative;
+  left: -200px;
+}
+.regions {
+  position: relative;
+  left: -160px;
+  top: 10px;
+  text-decoration-line: underline;
+  color: green;
+}
+.obratnyzvonok {
+  cursor: pointer;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  border: none;
+  background-color: #905539;
+  width: 275px;
+  margin-inline: 110px;
+  font-size: 20px;
+  height: 35px;
+  position: relative;
+  left: -10px;
+}
+.vb {
+  position: relative;
+  left: 100px;
+  padding-inline: 7px;
+}
+.wh {
+  position: relative;
+  left: 100px;
+  padding-inline: 7px;
+}
+.tt {
+  position: relative;
+  left: 100px;
+  padding-inline: 7px;
+}
+.number {
+  position: relative;
+  left: 120px;
+  font-family: 'Roboto', sans-serif;
+}
+.subHead {
+  display: flex;
+  justify-content: center;
+}
+.forInputs > input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  width: 99px;
+  position: relative;
+}
+.forInputs > img {
+  left: -10px;
+  top: 5px;
+  position: relative;
+}
+.forInputs {
+  position: relative;
+  left: -530px;
+}
+.text {
+  font-family: 'Cursive', sans-serif;
+  font-size: 15px;
+  position: relative;
+  left: -560px;
+  width: 140px;
+  text-align: center;
+  height: 40px;
+}
+.graffic {
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 10px;
+  justify-content: center;
+}
+.numberTwo {
+  position: absolute;
+  margin-left: 1065px;
+  font-family: 'Roboto', sans-serif;
+}
+.login {
+  position: absolute;
+  margin-left: 1090px;
+  margin-top: 30px;
+}
+.mail {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 850px;
+  cursor: pointer;
+}
+.subNavbar {
+  display: flex;
+  justify-content: center;
+  margin-left: -90px;
+  margin-top: 50px;
+}
+.subNavbar > .item {
+  margin-inline: 45px;
+  justify-content: center;
+}
+.subNavbar > .item > a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+.back {
+  background-image: url(../images/NewPilaFont.svg);
+  background-repeat: no-repeat;
+  margin: auto;
+  padding: 0px;
+  width: 1510px;
+  background-position: center;
+  height: 800px;
+}
+.regionsJobs {
+  font-family: 'Cursive', sans-serif;
+  margin: auto;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 120px;
+}
+.subtitletextjobs {
+  font-family: 'Cursive', sans-serif;
+  height: 119px;
+  width: 1421px;
+  color: white;
+  margin-top: 80px !important;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+}
+.forRegionImage {
+  display: flex;
+  justify-content: center;
+}
+.forRegionImage > .itemIame {
+  padding-inline: 40px;
+  margin-top: 120px;
+}
+.forRegionImage > .itemIame > a {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: green;
+  font-size: 20px;
+  margin-top: 180px;
+  margin-left: 130px;
+}
+.pharagraf {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  color: white;
+  margin-left: 100px;
+  font-size: 20px;
+  margin-top: 140px;
+}
+.regionforjobs {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  font-size: 30px;
+}
