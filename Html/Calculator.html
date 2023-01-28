@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор стоимости</title>
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/general.css">
+    <link rel="stylesheet" href="/CSS/fonts.css">
+    <link rel="stylesheet" href="/CSS/calculator.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar d-flex flex-column">
+            <div class="container">
+                <a class="navbar-brand" href="">
+                    <img src="/images/GeneralImages/navbar-brand.png" alt="">
+                    <p class="montserrat-regular text-center text20 fst-italic">Комплексный уход<br> за деревьями</p>
+                </a>
+                <div class="d-flex flex-column montserrat-semibold">
+                    <input name="navbar-first-radio" class="navbar-radio my-2" type="radio" id="navbar-choose-region"checked="checked">
+                    <label class="my-2" for="navbar-choose-region">Выбрать район</label>
+                    <input name="navbar-first-radio" class="navbar-radio my-2" type="radio" id="navbar-search">
+                    <label class="my-2" for="navbar-search">Поиск по сайту<img src="/images/GeneralImages/navbar-search.svg" alt=""></label>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <button class="montserrat-medium btn-bg text20 text-white rounded rounded10 border-0" style="width: 320px;">Обратный звонок</button>
+                    <p class="montserrat-regular">График работы офиса:  ежедневно с 8:00 до 21:00</p>
+                </div>
+                <div class="montserrat-medium d-flex flex-column align-items-end">
+                    <div class="d-flex flex-wrap">
+                        <img class="px-2" src="/images/GeneralImages/navbar-viber.svg" alt="">
+                        <img class="px-2" src="/images/GeneralImages/navbar-whatsapp.svg" alt="">
+                        <img class="px-2" src="/images/GeneralImages/navbar-telegram.svg" alt="">
+                        <a class="general-link-nu" href="">+7 (985) 996-59-95</a>
+                    </div>
+                    <div>
+                        <a class="ms-auto general-link-nu" href="">+7 (985) ххх-хх-ххх</a>
+                    </div>
+                    <div>
+                        <img class="px-2" src="/images/GeneralImages/navbar-email.svg" alt="">
+                        <a class="general-link-nu" href="">dr-forest@mail.ru</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar and first section -->
+    <div id="nav-with-first-section">
+        <!-- Navbar -->
+        <nav class="navbar d-flex flex-column py-2">
+            <div class="container w-100 justify-content-center">
+                <div class="w-100 montserrat-semibold text20">
+                    <form class="d-flex justify-content-around" action="" id="navbar-radio">
+                        <input class="navbar-radio" type="radio" id="navbar-main" name="navbar-radio">
+                        <label for="navbar-main"><a class="" style="color: black; text-decoration: none;" href="About.html">Главная</a></label>
+                        <input class="navbar-radio" type="radio" id="navbar-uslugi" name="navbar-radio" checked="checked">
+                        <label for="navbar-uslugi">Услуги</label>
+                        <input class="navbar-radio" type="radio" id="navbar-prices" name="navbar-radio">
+                        <label for="navbar-prices">Цены</label>
+                        <input class="navbar-radio" type="radio" id="navbar-sales" name="navbar-radio">
+                        <label for="navbar-sales" style="color: red;">Акции</label>
+                        <input class="navbar-radio" type="radio" id="navbar-works" name="navbar-radio">
+                        <label for="navbar-works">Наши работы</label>
+                        <input class="navbar-radio" type="radio" id="navbar-about" name="navbar-radio">
+                        <label for="navbar-about">О компании</label>
+                        <input class="navbar-radio" type="radio" id="navbar-useful" name="navbar-radio">
+                        <label for="navbar-useful">Полезная информация</label>
+                        <input class="navbar-radio" type="radio" id="navbar-contacts" name="navbar-radio">
+                        <label for="navbar-contacts">Контакты</label>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- First Section -->
+        <div class="container-fluid py-5" id="first-section">
+            <div class="container" id="maintext">
+                <p class="montserrat-medium text40 text-white text-center">В нашем калькуляторе вы можете рассчитать<br> 
+                    стоимость удаления , лечения деревьев <br>
+                    а так же других услуг</p>
+                <p class="exo2-regular text-white text30 text-center">Высокие или очень большие деревья представляют собой угрозу не только постройкам вокруг них, но и людям, которые под ними ходят. Ведь в случае сильного ветра или шквального дождя их
+                ветки могут обрушиться на кого угодно</p>
+            </div>
+            <div class="container">
+                <div class="py-4 px-5 d-flex flex-column align-items-center text-center" style="box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);">
+                    <div class="type-container px-5 py-4 my-4">
+                        <p class="exo2-semibold text35 text-center" style="color: #905539;">Выберите тип удаления</p>
+                        <div class="d-flex gap-4 justify-content-evenly">
+                            <div class="d-flex flex-column align-items-center" id="typeRemove">
+                                <img class="type-image" src="/images/calculator/type-removing.png" alt="">
+                                <p class="exo2-regular text15" style="color: #07551D;">Валка деревьев</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-center" id="typeRemovePartially">
+                                <img class="type-image" src="/images/calculator/type-removing-partially.png" alt="">
+                                <p class="exo2-regular text15" style="color: #07551D;">Удаление деревьев
+                                    по частям</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-center" id="typeRemoveEx">
+                                <img class="type-image" src="/images/calculator/type-removing-ex.png" alt="">
+                                <p class="exo2-regular text15" style="color: #07551D;">Удаление аварийных
+                                    деревьев</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-center" id="typeCut">
+                                <img class="type-image" src="/images/calculator/type-cutting.png" alt="">
+                                <p class="exo2-regular text15" style="color: #07551D;">Обрезка деревьев</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-center" id="typeSpray">
+                                <img class="type-image" src="/images/calculator/type-spraying.png" alt="">
+                                <p class="exo2-regular text15" style="color: #07551D;">Опрыскивание деревьев</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="type-container px-5 py-4 my-4">
+                        <p class="exo2-regular text18" style="color: #905539;">Как удаляем</p>
+                        <div class="d-flex gap-5 justify-content-between">
+                            <div class="d-flex flex-column align-items-center px-4">
+                                <img class="type2-image" src="/images/calculator/remove-whole.png" alt="">
+                                <p class="exo2-regular text15" style="color: #07551D;">Целиком</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-center px-4">
+                                <img class="type2-image" src="/images/calculator/remove-pull.png" alt="">
+                                <p class="exo2-regular text15" style="color: #07551D;">С оттяжкой</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="type-container px-5 py-4 my-4">
+                        <p class="exo2-regular text18" style="color: #905539;">Диаметр деревьев и их порода</p>
+                        <div class="d-flex gap-5">
+                            <form action="">
+                                <input type="checkbox" id="removeDiamHardwood">
+                                <label class="exo2-medium text15" for="removeDiamHardwood" style="color: #07551D;">Лиственная порода дерева</label>
+                            </form>
+                            <form action="">
+                                <input type="checkbox" name="" id="removeDiamSoftwood" style="color: #07551D;">
+                                <label class="exo2-medium text15" for="removeDiamSoftwood" style="color: #07551D;">Хвойная порода дерева</label>
+                            </form>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
