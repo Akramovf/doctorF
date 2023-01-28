@@ -131,5 +131,12 @@ table>tbody>tr.tr-general>td.td-name{
 
 #last-section{
     background-image: url("/images/uslugi/last-bg.png");
+    background-size: contain;
     background-position: bottom;
+    background-repeat: no-repeat;
+}
+#howDoWeWork{
+    background-image: url("/images/uslugi/transition.png");
+    background-position: top -600px right 50%;
+    background-repeat: no-repeat;
 }
