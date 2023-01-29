@@ -17,6 +17,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
 </head>
 
@@ -45,12 +47,12 @@
     </div>
     <div class="back">
         <div class="subNavbar">
-            <div class="item"><a href="">Главная</a></div>
-            <div class="item"><a href="">Услуги</a></div>
+            <div class="item"><a href="../Html/About.html">Главная</a></div>
+            <div class="item"><a href="../Html/uslugi.html">Услуги</a></div>
             <div class="item"><a href="">Цены</a></div>
             <div class="item"><a href="">Акции</a></div>
             <div class="item"><a href="">Наши работы</a></div>
-            <div class="item"><a href="">О компании</a></div>
+            <div class="item"><a class="company" href="">О компании</a></div>
             <div class="item"><a href="">Полезная информация</a></div>
             <div class="item"><a href="">Контакты</a></div>
         </div>
@@ -83,7 +85,228 @@
         </div>
     </div>
     <div class="regionforjobs">Выберите район обслуживания</div>
-    <div class="map"><img src="../images/Group 141.svg" alt="" class="taldomskiy"></div>
+    <div class="map">
+        <img src="../images/картаmap.svg" class="" alt="">
+    </div>
+    <div class="backFoneEmail">
+        <input placeholder="Введите ваше имя" class="name" type="text">
+        <input placeholder="Выберите вид работы" class="name2" type="text">
+        <input placeholder="Напишите телефон" class="name3" type="number">
+        <div placeholder="" class="name4" type="text">
+            <p>Прикрепите фотографию вашей проблемы</p>
+            <label class="file" for="file">Прикрепить файл</label>
+            <input id="file" type="file">
+        </div>
+        <input placeholder="Выберите район работ" class="name5" type="text">
+    </div>
+    <div class="container why-for-me-job">Почему стоит обратиться к нам?</div>
+    <div class="container-fluid">
+        <div class=" menfone container-fluid">
+            <div class="container-fluid all_tables d-flex justify-content-center">
+                <div class="container d-flex">
+                    <!-- первый столб -->
+                    <div class="col-6 mt-5 flex-colum">
+                        <div class="container dollar d-flex"><img src="../images/image 10.svg" alt="">
+                            <div class="container  flex-colum">
+                                <p class="text-center price">Оптимальные цены</p>
+                                <p class="info text-center">Мы ориентируется на возможности
+                                    обратившихся за помощью людей.</p>
+                            </div>
+                        </div>
+                        <div class="container dollar d-flex"><img src="../images/image 11.svg" alt="">
+                            <div class="container  flex-colum">
+                                <p class="text-center price">Оптимальные цены</p>
+                                <p class="info text-center">Мы ориентируется на возможности
+                                    обратившихся за помощью людей.</p>
+                            </div>
+                        </div>
+                        <div class="container dollar d-flex"><img src="../images/image 12.svg" alt="">
+                            <div class="container  flex-colum">
+                                <p class="text-center price">Оптимальные цены</p>
+                                <p class="info text-center">Мы ориентируется на возможности
+                                    обратившихся за помощью людей.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- второй столб -->
+                    <div class="col-6 mt-5 flex-colum">
+                        <div class="container dollar d-flex"><img src="../images/image 13.svg" alt="">
+                            <div class="container  flex-colum">
+                                <p class="text-center price">Оптимальные цены</p>
+                                <p class="info text-center">Мы ориентируется на возможности
+                                    обратившихся за помощью людей.</p>
+                            </div>
+                        </div>
+                        <div class="container dollar d-flex"><img src="../images/image 14.svg" alt="">
+                            <div class="container  flex-colum">
+                                <p class="text-center price">Оптимальные цены</p>
+                                <p class="info text-center">Мы ориентируется на возможности
+                                    обратившихся за помощью людей.</p>
+                            </div>
+                        </div>
+                        <div class="container dollar d-flex"><img src="../images/image 15.svg" alt="">
+                            <div class="container  flex-colum">
+                                <p class="text-center price">Оптимальные цены</p>
+                                <p class="info text-center">Мы ориентируется на возможности
+                                    обратившихся за помощью людей.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- свайпер -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="container d-flex flex-column">
+                            <div class="container text-title-swiper">Уход за садом</div>
+                            <div class="container"><img src="../images/Rectangle 28.svg" alt=""></div>
+                            <div class="container info-jobs-on-slider">Обеспечить здоровье
+                                плодовых деревьев может
+                                только ..</div>
+                            <div class="container d-flex">
+                                <div class="container price-with-this-jobs">Цена от 1000 руб.</div>
+                                <div class="container more">Больше</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container d-flex flex-column">
+                            <div class="container text-title-swiper">Уход за садом</div>
+                            <div class="container"><img src="../images/Rectangle 28.svg" alt=""></div>
+                            <div class="container info-jobs-on-slider">Обеспечить здоровье
+                                плодовых деревьев может
+                                только ..</div>
+                            <div class="container d-flex">
+                                <div class="container price-with-this-jobs">Цена от 1000 руб.</div>
+                                <div class="container more">Больше</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container d-flex flex-column">
+                            <div class="container text-title-swiper">Уход за садом</div>
+                            <div class="container"><img src="../images/Rectangle 28.svg" alt=""></div>
+                            <div class="container info-jobs-on-slider">Обеспечить здоровье
+                                плодовых деревьев может
+                                только ..</div>
+                            <div class="container d-flex">
+                                <div class="container price-with-this-jobs">Цена от 1000 руб.</div>
+                                <div class="container more">Больше</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container d-flex flex-column">
+                            <div class="container text-title-swiper">Уход за садом</div>
+                            <div class="container"><img src="../images/Rectangle 28.svg" alt=""></div>
+                            <div class="container info-jobs-on-slider">Обеспечить здоровье
+                                плодовых деревьев может
+                                только ..</div>
+                            <div class="container d-flex">
+                                <div class="container price-with-this-jobs">Цена от 1000 руб.</div>
+                                <div class="container more">Больше</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container d-flex flex-column">
+                            <div class="container text-title-swiper">Уход за садом</div>
+                            <div class="container"><img src="../images/Rectangle 28.svg" alt=""></div>
+                            <div class="container info-jobs-on-slider">Обеспечить здоровье
+                                плодовых деревьев может
+                                только ..</div>
+                            <div class="container d-flex">
+                                <div class="container price-with-this-jobs">Цена от 1000 руб.</div>
+                                <div class="container more">Больше</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container d-flex flex-column">
+                            <div class="container text-title-swiper">Уход за садом</div>
+                            <div class="container"><img src="../images/Rectangle 28.svg" alt=""></div>
+                            <div class="container info-jobs-on-slider">Обеспечить здоровье
+                                плодовых деревьев может
+                                только ..</div>
+                            <div class="container d-flex">
+                                <div class="container price-with-this-jobs">Цена от 1000 руб.</div>
+                                <div class="container more">Больше</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container d-flex flex-column">
+                            <div class="container text-title-swiper">Уход за садом</div>
+                            <div class="container"><img src="../images/Rectangle 28.svg" alt=""></div>
+                            <div class="container info-jobs-on-slider">Обеспечить здоровье
+                                плодовых деревьев может
+                                только ..</div>
+                            <div class="container d-flex">
+                                <div class="container price-with-this-jobs">Цена от 1000 руб.</div>
+                                <div class="container more">Больше</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container d-flex flex-column">
+                            <div class="container text-title-swiper">Уход за садом</div>
+                            <div class="container"><img src="../images/Rectangle 28.svg" alt=""></div>
+                            <div class="container info-jobs-on-slider">Обеспечить здоровье
+                                плодовых деревьев может
+                                только ..</div>
+                            <div class="container d-flex">
+                                <div class="container price-with-this-jobs">Цена от 1000 руб.</div>
+                                <div class="container more">Больше</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container d-flex flex-column">
+                            <div class="container text-title-swiper">Уход за садом</div>
+                            <div class="container"><img src="../images/Rectangle 28.svg" alt=""></div>
+                            <div class="container info-jobs-on-slider">Обеспечить здоровье
+                                плодовых деревьев может
+                                только ..</div>
+                            <div class="container d-flex">
+                                <div class="container price-with-this-jobs">Цена от 1000 руб.</div>
+                                <div class="container more">Больше</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+
+            </div>
+            <div class="all-jobs"><a href="">Все услуги</a></div>
+            <div class="container d-flex justify-content-center why-job">Как мы работаем</div>
+            <div class="itembox d-flex mt-2">
+                <div class="itemIameJobs"><img src="../images/img1.svg" alt=""></div>
+                <div class="itemIameJobs"><img class="img2" src="../images/img1.svg" alt=""></div>
+                <div class="itemIameJobs"><img src="../images/img1.svg" alt=""></div>
+                <div class="itemIameJobs"><img class="img4" src="../images/img1.svg" alt=""></div>
+                <div class="itemIameJobs"><img src="../images/img1.svg" alt=""></div>
+            </div>
+            <div class="forLine"><img src="../images/line.svg" alt=""></div>
+            <div class="textBox d-flex">
+                <p class="itemText1">Консультация<br>оформление,<br>заявки</p>
+                <p class="itemText2">Консультация<br>оформление,<br>заявки</p>
+                <p class="itemText3">Консультация<br>оформление,<br>заявки</p>
+                <p class="itemText4">Консультация<br>оформление,<br>заявки</p>
+                <p class="itemText5">Консультация<br>оформление,<br>заявки</p>
+            </div>
+            <div class="container d-flex justify-content-center mt-2">
+                <button class="priceFinishjobs">
+                    <a href="" class="href">Рассчитать стоимость работ</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    .container
+    <!-- Swiper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../JS/swipe.js"></script>
 </body>
 
 </html>

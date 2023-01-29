@@ -1600,3 +1600,11 @@ body {
   font-size: 29px;
   font-family: 'Cursive', sans-serif;
 }
+.aboutCompany > a {
+  text-decoration: none;
+  color: black;
+}
+.aboutCompany > a:hover {
+  color: green;
+  transition: 0.5s;
+}
