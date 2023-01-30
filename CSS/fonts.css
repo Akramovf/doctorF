@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: "Montserrat Light";
-    src: url("/fonts/Montserrat-Light.woff");
+    src: url("../fonts/Montserrat-Light.woff");
 }
 .montserrat-light{
     font-family: "Montserrat Light";
@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: "Montserrat Regular";
-    src: url("/fonts/Montserrat-Regular.woff");
+    src: url("../fonts/Montserrat-Regular.woff");
 }
 .montserrat-regular{
     font-family: "Montserrat Regular";
@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: "Montserrat Medium";
-    src: url("/fonts/Montserrat-Medium.woff");
+    src: url("../fonts/Montserrat-Medium.woff");
 }
 .montserrat-medium{
     font-family: "Montserrat Medium";
@@ -25,7 +25,7 @@
 
 @font-face {
     font-family: "Montserrat Semibold";
-    src: url("/fonts/Montserrat-SemiBold.woff");
+    src: url("../fonts/Montserrat-SemiBold.woff");
 }
 .montserrat-semibold{
     font-family: "Montserrat Semibold";
@@ -33,21 +33,21 @@
 
 @font-face {
     font-family: "Exo 2 Medium";
-    src: url("/fonts/Exo2-Medium.woff");
+    src: url("../fonts/Exo2-Medium.woff");
 }
 .exo2-medium{
     font-family: "Exo 2 Medium";
 }
 @font-face {
     font-family: "Exo 2 Semibold";
-    src: url("/fonts//Exo2-SemiBold.woff");
+    src: url("../fonts//Exo2-SemiBold.woff");
 }
 .exo2-semibold{
     font-family: "Exo 2 Semibold";
 }
 @font-face {
     font-family: "Exo 2 Regular";
-    src: url("/fonts/Exo2-Regular.woff");
+    src: url("../fonts/Exo2-Regular.woff");
 }
 .exo2-regular{
     font-family: "Exo 2 Regular";

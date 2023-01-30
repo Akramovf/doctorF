@@ -6,7 +6,7 @@
 }
 
 #nav-with-first-section{
-    background-image: url("/images/GeneralImages/first-section-bg.png");
+    background-image: url("../images/GeneralImages/first-section-bg.png");
     background-position: top;
     background-repeat: no-repeat;
 }
@@ -52,17 +52,17 @@ a:hover{
 }
 
 .sales-form{
-    background-image: url("/images/GeneralImages/sales-form-bg.png");
+    background-image: url("../images/GeneralImages/sales-form-bg.png");
 }
 
 #last-section{
-    background-image: url("/images/GeneralImages/last-bg.png");
+    background-image: url("../images/GeneralImages/last-bg.png");
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
 }
 #howDoWeWork{
-    background-image: url("/images/GeneralImages/transition.png");
+    background-image: url("../images/GeneralImages/transition.png");
     background-position: top -600px right 50%;
     background-repeat: no-repeat;
 }
