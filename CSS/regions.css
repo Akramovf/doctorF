@@ -552,10 +552,12 @@ body {
   background-image: url(../images/subBottomFone.svg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 1420px !important;
+  width: 1495.2px !important;
   position: static;
+  margin: 0%;
+  padding: 0px !important;
   margin: auto;
-  height: 1700px;
+  height: 1699px;
   z-index: 0 !important;
   background-size: cover;
 }
@@ -613,4 +615,96 @@ body {
   text-decoration: none;
   color: white;
   cursor: pointer;
+}
+.itemfootertext {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-inline: 100px;
+  margin-top: 20px;
+}
+.inn {
+  position: absolute;
+  left: 150px;
+  top: 4415px !important;
+}
+.uslugi {
+  position: absolute;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  left: 425px !important;
+}
+.infotextfooter {
+  position: absolute;
+  left: 690px;
+}
+.fotoAndvideo {
+  position: absolute;
+  left: 1010px;
+}
+.vibertgwhatsapp {
+  position: absolute;
+  left: 1170px;
+}
+.infobox {
+  display: flex;
+  margin: auto;
+  justify-content: center !important ;
+}
+.allInfoforSubject {
+  position: relative;
+  margin-left: 120px;
+  margin-top: 100px;
+}
+.Allofficemoscow {
+  position: relative;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+.Allprice {
+  position: relative;
+  margin-left: 680px;
+  bottom: 160px;
+}
+.grafficday {
+  position: relative;
+  margin-left: 1220px;
+  bottom: 190px;
+}
+.grafficday1 {
+  position: relative;
+  margin-left: 1195px;
+  bottom: 190px;
+}
+.returnCall {
+  width: 320px;
+  height: 30px;
+  text-align: center;
+  position: relative;
+  margin-left: 1080px;
+  border: none;
+  background-color: #905539;
+  color: white;
+  border-radius: 10px;
+  top: -180px;
+}
+.textdocs {
+  position: relative;
+  margin-left: 955px;
+  bottom: 100px;
+}
+.textdocs1 {
+  position: relative;
+  margin-left: 1150px;
+  bottom: 100px;
+}
+.textdocs2 {
+  position: relative;
+  margin-left: 1150px;
+  bottom: 80px;
+}
+.textdocs3 {
+  position: relative;
+  margin-left: 1320px;
+  bottom: 80px;
 }
