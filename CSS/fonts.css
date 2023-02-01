@@ -1,81 +1,79 @@
-
 @font-face {
-    font-family: "Montserrat Light";
-    src: url("/fonts/Montserrat-Light.woff");
+  font-family: 'Montserrat Light';
+  src: url('../fonts/Montserrat-Light.woff');
 }
-.montserrat-light{
-    font-family: "Montserrat Light";
-}
-
-@font-face {
-    font-family: "Montserrat Regular";
-    src: url("/fonts/Montserrat-Regular.woff");
-}
-.montserrat-regular{
-    font-family: "Montserrat Regular";
+.montserrat-light {
+  font-family: 'Montserrat Light';
 }
 
 @font-face {
-    font-family: "Montserrat Medium";
-    src: url("/fonts/Montserrat-Medium.woff");
+  font-family: 'Montserrat Regular';
+  src: url('../fonts/Montserrat-Regular.woff');
 }
-.montserrat-medium{
-    font-family: "Montserrat Medium";
-}
-
-@font-face {
-    font-family: "Montserrat Semibold";
-    src: url("/fonts/Montserrat-SemiBold.woff");
-}
-.montserrat-semibold{
-    font-family: "Montserrat Semibold";
+.montserrat-regular {
+  font-family: 'Montserrat Regular';
 }
 
 @font-face {
-    font-family: "Exo 2 Medium";
-    src: url("/fonts/Exo2-Medium.woff");
+  font-family: 'Montserrat Medium';
+  src: url('../fonts/Montserrat-Medium.woff');
 }
-.exo2-medium{
-    font-family: "Exo 2 Medium";
-}
-@font-face {
-    font-family: "Exo 2 Semibold";
-    src: url("/fonts//Exo2-SemiBold.woff");
-}
-.exo2-semibold{
-    font-family: "Exo 2 Semibold";
-}
-@font-face {
-    font-family: "Exo 2 Regular";
-    src: url("/fonts/Exo2-Regular.woff");
-}
-.exo2-regular{
-    font-family: "Exo 2 Regular";
+.montserrat-medium {
+  font-family: 'Montserrat Medium';
 }
 
+@font-face {
+  font-family: 'Montserrat Semibold';
+  src: url('../fonts/Montserrat-SemiBold.woff');
+}
+.montserrat-semibold {
+  font-family: 'Montserrat Semibold';
+}
+
+@font-face {
+  font-family: 'Exo 2 Medium';
+  src: url('../fonts/Exo2-Medium.woff');
+}
+.exo2-medium {
+  font-family: 'Exo 2 Medium';
+}
+@font-face {
+  font-family: 'Exo 2 Semibold';
+  src: url('../fonts//Exo2-SemiBold.woff');
+}
+.exo2-semibold {
+  font-family: 'Exo 2 Semibold';
+}
+@font-face {
+  font-family: 'Exo 2 Regular';
+  src: url('../fonts/Exo2-Regular.woff');
+}
+.exo2-regular {
+  font-family: 'Exo 2 Regular';
+}
 
 /* Text */
-.text12{
-    font-size: 12px;
+.text12 {
+  font-size: 12px;
 }
-.text14{
-    font-size: 14px;
+.text14 {
+  font-size: 14px;
 }
-.text18{
-    font-size: 18px;
+.text18 {
+  font-size: 18px;
 }
-.text20{
-    font-size: 20px;
+.text20 {
+  font-size: 20px;
 }
-.text25{
-    font-size: 25px;
+.text25 {
+  font-size: 25px;
 }
-.text30{
-    font-size: 30px;
+.text30 {
+  font-size: 30px;
 }
-.text35{
-    font-size: 35px;
+.text35 {
+  font-size: 35px;
 }
-.text40{
-    font-size: 40px;
+.text40 {
+  font-size: 40px;
 }
